@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	background-color: #F7F2E7;
+	color: #3A3B3B;
+}
+.customfont{
+	font-family: 'Dongle', sans-serif;
+	font-size:35px;
+	margin-right: 20px;
+	padding: 0;
+}
+#header{
+	margin-bottom: 0;
+	padding: 10px 20px;
+	background-color: #D8D3CD;
+}
+a{
+	padding: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #3A3B3B;
+}
+.fas{
+	float: right;
+	padding: 10px;
+	font-size: 20px;
+}
+.content{
+	padding: 10px;
+}
+#frontpic{
+	padding: 10px;
+	width: 40%;
+}
+.headertext{
+	float: left;
+	font-size: 50px;
+	margin: 55px;
+	text-align: right;
+}
+.content2{
+	background-color: #797A7E;
+	padding: 50px;
+	text-align: center;
+}
+.headertext2{
+	font-size: 40px;
+	color: white;
+}
+.content3{
+	padding: 50px;
+	text-align: center;
+}
+.fab{
+	padding: 10px;
+}
+#footer{
+	padding: 25px;
+	background-color: #ebebeb;
+	
+}
+.headertext3{
+	font-size: 40px;
+}
+.pic{
+	border: 5px solid #ddd;
+  	margin:20px;
+  	height: 350px;
+  	width: 350px;
+}
+
+
+
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display:inline-block;
+  margin: 40px 8px 10px 8px; 
+  color: #cccccc;
+}
+
+
+
+/* STRUCTURE */
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+#formContent {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+#formFooter {
+  background-color: #f6f6f6;
+  border-top: 1px solid #dce8f1;
+  padding: 25px;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+
+.contentbg{
+	background-color: white;
+	border: 3px solid #D8D3CD;
+	padding: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+	border-radius: 10px;
+}
+content-form{
+	padding: 30px;
+	margin: 30px;
+}
+form{
+	
+}
+
+input[type=text]{
+	width: 100%;
+}
+input[type=password]{
+	width: 100%;
+	margin-bottom: 10px;
+}
+button{
+	border-style: none;
+	outline: none;
+	padding: 5px 10px;
+	text-align: center;
+	background-color: #D8D3CD;
+	color: #232323;
+}
